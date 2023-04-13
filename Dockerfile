@@ -14,4 +14,4 @@ RUN pip3 install psycopg2-binary
 
 EXPOSE 47334
 
-CMD [ "mindsdb" ]
+CMD [ "/usr/local/bin/mindsdb" ]
